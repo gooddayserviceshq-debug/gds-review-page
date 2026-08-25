@@ -48,7 +48,17 @@
     transition: background 0.15s ease;
   }
   .review-btn:hover { background: #1557b0; }
-  .stars { letter-spacing: 4px; color: #C9A84C; font-size: 1.2rem; margin-bottom: 28px; }
+  .stars { display: flex; justify-content: center; gap: 6px; margin-bottom: 8px; }
+  .stars a {
+    color: #C9A84C;
+    font-size: 1.8rem;
+    text-decoration: none;
+    line-height: 1;
+    padding: 4px;
+    transition: transform 0.1s ease;
+  }
+  .stars a:hover { transform: scale(1.2); }
+  .stars-hint { font-size: 0.75rem; color: #9aa7b3; margin-bottom: 24px; }
   .divider { border: none; border-top: 1px solid #e8e4da; margin: 28px 0 20px; }
   .contact { font-size: 0.9rem; color: #6b7a89; line-height: 1.7; }
   .contact a { color: #1c2733; font-weight: 600; text-decoration: none; }
@@ -60,14 +70,21 @@
     <div class="sun" aria-hidden="true"></div>
     <h1>Good Day Services</h1>
     <div class="tagline">Soft Wash &amp; Exterior Cleaning</div>
-    <div class="stars" aria-hidden="true">★★★★★</div>
+    <div class="stars">
+      <a href="https://g.page/r/Ccff2p8CGAfmEBM/review" aria-label="Rate 1 star on Google">★</a>
+      <a href="https://g.page/r/Ccff2p8CGAfmEBM/review" aria-label="Rate 2 stars on Google">★</a>
+      <a href="https://g.page/r/Ccff2p8CGAfmEBM/review" aria-label="Rate 3 stars on Google">★</a>
+      <a href="https://g.page/r/Ccff2p8CGAfmEBM/review" aria-label="Rate 4 stars on Google">★</a>
+      <a href="https://g.page/r/Ccff2p8CGAfmEBM/review" aria-label="Rate 5 stars on Google">★</a>
+    </div>
+    <div class="stars-hint">Tap the stars to rate us on Google</div>
     <p class="lead">Thanks for having us out. If you've got 60&nbsp;seconds, a Google review is the biggest thing you can do for a local crew like ours.</p>
     <a class="review-btn" href="https://g.page/r/Ccff2p8CGAfmEBM/review">Leave a Google Review</a>
     <hr class="divider">
     <p class="contact">
       Something not right? Tell us first and we'll fix it.<br>
       Call or text <a href="tel:+16153909779">615-390-9779</a><br>
-      <a href="mailto:blake@gooddayservicestn.com">blake@gooddayservicestn.com</a>
+      <a href="mailto:blake@gooddaypressurewashing.com">blake@gooddaypressurewashing.com</a>
     </p>
     <p class="areas">Murfreesboro &middot; Franklin &middot; Brentwood &middot; Spring Hill</p>
   </main>
